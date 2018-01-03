@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/howmony_et"
+        android:layout_marginTop="31dp"
+        android:hint="كم المبلغ المطلوب سحبه؟"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pop"
+        android:id="@+id/popbtn"
+        android:background="#dc9595"
+        android:onClick="pop"
+        android:layout_below="@+id/howmony_et"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tbinfo"
+        android:visibility="invisible"
+        android:layout_below="@+id/popbtn"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv1"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="textEnd"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv2"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="textEnd"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv3"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="textEnd"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv4"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="textEnd"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv5"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="textEnd"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/textView"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="center"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="total avilable" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:id="@+id/tv6"
+            android:background="#73dacd"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:textAlignment="textEnd"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
